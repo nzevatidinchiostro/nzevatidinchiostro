@@ -1,8 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/</loc>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/chisiamo.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/autori.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/libri.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/eventi.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/contatti.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/home.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/autori_Nick.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/autori_Mattia.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/autori_Simona.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/autori_Enzo.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/libri_Nick.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/libri_Mattia.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/libri_Simona.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/libri_Enzo1.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nzevatidinchiostro.github.io/nzevatidinchiostro/libri_Enzo2.html</loc>
+  <lastmod>2025-07-31T15:11:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
