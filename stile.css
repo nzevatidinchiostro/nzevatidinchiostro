@@ -1,0 +1,291 @@
+.sezione {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% auto; /* Larghezza sempre 100%, altezza proporzionale */
+    background-color: white; /* Per riempire eventuali spazi vuoti */
+    min-height: 100vh;
+    position: relative;}
+
+.sezione::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.3); /* chiaro per testo nero */
+  z-index: 0;
+  pointer-events: none;
+}
+
+.sezione > * {
+  position: relative;
+  z-index: 1;}
+
+
+.chisiamo {
+    background-image: url("Chi_siamo.png");
+}
+.autori {
+    background-image: url("autori.png");
+}   
+.autori2 {
+    background-image: url("autori.png");}
+
+.libri {
+    background-image: url("libri.png");
+}
+.eventi {
+    background-image: url("eventi_bkg.png");
+}
+.contatti {
+    background-image: url("contatti.png");
+}
+.home {
+    min-height: 100vh;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-image:url("home.png");
+    background-size: 100% auto; /* Larghezza sempre 100%, altezza proporzionale */
+    background-color: white; /* Per riempire eventuali spazi vuoti */
+}
+@font-face {
+   font-family: 'goth2';
+   src: url('goth2.ttf') format('truetype');;
+}
+
+h1,h2,h3,h4, p,pp {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-family: 'goth2',Garamond,serif;
+    font-size: 50px;
+    text-align: left;
+}
+h2 {font-family: 'goth2',Garamond,serif;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+h3 {font-family: Garamond, serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+h4 {font-family: Garamond, serif;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+p {
+    font-family: Garamond, serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+pp {
+    font-family: Garamond, serif;
+    font-size: 25px;
+    text-align: justify;
+}
+blockindent {
+    padding-left: 1.5em;
+    font-family: Garamond, serif;
+    font-size: 25px;
+    text-align: justify;
+}
+address{
+    font-family: Garamond, serif;
+    text-align: left;
+    font-size: 20px;
+    margin: 25px 50px 75px 100px;
+}
+
+a { color: white;
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+a:hover {color: white;
+  text-decoration: underline; /* Sottolineatura al passaggio del mouse */
+}
+
+.contenitore {
+  display: flex;
+  flex-wrap: wrap; /* utile se gli elementi non ci stanno in una riga */
+  justify-content: center;
+  gap: 20px; /* spazio uniforme tra i box */
+  margin: 20px auto;
+  padding: 10px;
+}
+/* Box generico */
+.box1, .box2, .box2title, .box2image, .box3, .box4 {
+  padding: 10px;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.box {
+    flex: 10;
+    padding: 100px;
+    margin: 400px 100px 100px 400px
+}
+.box1 {
+    flex: 0.5;
+    padding: 0px;
+    margin: 5px 10px 0px;
+    text-align: center;
+}
+.box2title{
+    flex: 2.5;
+    margin: 10px;
+    padding: 10px;
+}
+.box2{
+    flex: 2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box3 {
+  flex: 2;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+}
+.box4 {
+  flex: 2;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box6 {
+  flex: 2;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+}
+
+.menuhome {
+    font-family: Garamond, serif;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #000000;
+    color: white;
+    flex: 0.5;
+    padding: 10px;
+    margin: 10px 50px 10px 0px
+    
+}
+
+.menu {
+  flex: 0.5;
+  font-family: Garamond, serif;
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu link styling */
+.menu a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+  body, .sezione, .home {
+    padding: 10px;
+    min-height: auto;
+    background-size: contain;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h2, h3, h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: left;
+  }
+  pp {
+    font-size: 15px;
+    text-align: left;
+  }
+    
+   blockindent {
+    font-size: 15px;
+    text-align: left;
+  }
+  address {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .contenitore {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .box,
+  .box1,
+  .box2,
+  .box2title,
+  .box3,
+  .box4,
+  .menu,
+  .menuhome {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .box6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+  .menu,
+  .menuhome {
+    font-size: 20px;
+  }
+
+  .box {
+    margin: 10px;
+    padding: 10px;
+  }
+}
