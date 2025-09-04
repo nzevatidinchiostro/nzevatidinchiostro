@@ -217,21 +217,21 @@ a:hover {color: white;
   text-decoration: underline;
 }
 
-
+/* 📱 Media Query Mobile */
 @media screen and (max-width: 768px) {
   body, .sezione, .home {
     padding: 10px;
     min-height: auto;
-    background-size: contain;
+    background-size: cover; /* prima era contain */
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 28px; /* ridotto solo su mobile */
     text-align: center;
   }
 
   h2, h3, h4 {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
   }
 
@@ -239,15 +239,11 @@ a:hover {color: white;
     font-size: 18px;
     text-align: left;
   }
-  pp {
+  pp, blockindent {
     font-size: 15px;
     text-align: left;
   }
     
-   blockindent {
-    font-size: 15px;
-    text-align: left;
-  }
   address {
     font-size: 14px;
     margin: 10px;
@@ -272,12 +268,12 @@ a:hover {color: white;
     padding: 10px;
     font-size: 18px;
   }
+
   .box6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-}
+  }
 
   .menu,
   .menuhome {
